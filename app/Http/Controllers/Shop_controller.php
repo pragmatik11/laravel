@@ -9,6 +9,7 @@ class Shop_controller extends Controller
 {
     function index() {
         
+        $data= 1;
         $data = array();
         
         $categories = Categories::getCategories();
